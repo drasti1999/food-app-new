@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* custom css */
+
+/* for home container */
+/* ---------------------------------------------------------------------------------------------------- */
+.home {
+  background-image: url('assets/Shape\ 3-2.png');
+  background-size: cover;
+}
+
+.h1 {
+  font-size: 70px;
+}
+
+.dots {
+  height: 150px !important;
+  top: 50%; 
+  padding: 0%;
+  margin-left: 35px;
+  width: 90px;
+  position: absolute;
+  background-image: url('assets/Shape\ 6-2.png');
 }
