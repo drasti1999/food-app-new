@@ -50,9 +50,9 @@ body {
 .home {
   background-image: url('/public/assets/Shape\ 3-2.png');
   background-size: cover;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  /* top: -48px; */
+  top: -48px;
   /* overflow: hidden; */
   /* position relative leaves empty space so overflow: hidden */
   /* z-index: 0; */

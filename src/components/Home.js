@@ -3,7 +3,8 @@ import React from "react";
 export default function Home() {
   return (
     <div className="home text-white" style={{ paddingBottom: "25%" }}>
-      <nav className="position-absolute navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
+      {/* <nav className="position-absolute navbar navbar-expand-lg bg-transparent navbar-dark fixed-top"> */}
+      <nav className="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Navbar
