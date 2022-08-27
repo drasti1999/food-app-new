@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="home text-white">
-      <nav className="navbar navbar-expand-lg bg-transparent navbar-dark">
+    <div className="home text-white" style={{ paddingBottom: "25%" }}>
+      <nav className="position-absolute navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Navbar
@@ -40,23 +40,32 @@ export default function Home() {
                 <a className="nav-link disabled">Disabled</a>
               </li>
             </ul>
+            <form className="d-flex" role="search">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
         </div>
       </nav>
-      <div className="container-fluid">
-        <div className="row row-cols-12g-0">
-          <div className="col-11 ps-5 py-5">
-            <h1 className="text-center h1 fw-bolder">
+      <div className="container-fluid mt-5">
+        <div className="row row-cols-12 g-0">
+          <div className="col-11 ps-5 pt-5 mt-5">
+            <h1 className="text-center h1 fw-bolder display-1">
               Healthy Food <br />
               Restaurant
             </h1>
-            <h4 className="text-center fw-light h4">
+            <h4 className="text-center fw-light h4 mt-4">
               Lorem ipsum dolor sit amet, consectetuer <br /> adipiscing elit.
             </h4>
           </div>
-          <div className="col-1">
-            <div className="dots h-100"></div>
-          </div>
+          {/* <div className="col-1 dots"></div> */}
         </div>
       </div>
     </div>
