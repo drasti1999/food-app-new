@@ -41,17 +41,19 @@
 /* custom css */
 
 body {
-  background-image: url('assets/Background.png');
+  background-image: url('/public/assets/Background.png');
 }
 
 
 /* for home container */
 /* ---------------------------------------------------------------------------------------------------- */
 .home {
-  background-image: url('assets/Shape\ 3-2.png');
+  background-image: url('/public/assets/Shape\ 3-2.png');
   background-size: cover;
-  position: relative;
-  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  /* top: -48px; */
+  /* overflow: hidden; */
   /* position relative leaves empty space so overflow: hidden */
   /* z-index: 0; */
 }
@@ -64,49 +66,26 @@ body {
   margin-left: 35px;
   width: 90px;
   position: relative;
-  background-image: url('assets/Shape\ 6-2.png');
+  background-image: url('/public/assets/Shape\ 6-2.png');
 }
 
 .img-design {
-  position: absolute;
-  top: 10%;
+  position: relative;
+  /* width: 1176px; */
+  top: -629px;
   float: right;
-  left: 30%;
-  width: 70%;
-  /* height: 100vh; */
-  height: 950px;
-  background-image: url('assets/ShapeNew2.png');
-  background-size: cover;
   z-index: -1;
 }
 
-/* .img-design-line{
-  top: 40%;
-  left: 50%;
-  position: relative;
-  height: 50%;
-  width: 50%;
-  padding: auto;
-  background-image: url('assets/Shape\ 2.png');
-  background-size: cover;
-  z-index: 0;
-} */
 .img-design-line {
-  top: 52%;
-  left: 73%;
-  position: relative;
-  height: 33%;
-  width: 27%;
+  top: 65px;
+  right: 0;
+  position: absolute;
   padding: auto;
-  background-image: url('assets/Shape\ 2.png');
-  background-size: cover;
   z-index: 1;
 }
 
-
-
-@media screen and(max-width:1307px) {
-  .img-design-line{
-    display: none;
-  }
+.design-div {
+  float: right;
+  top: 668px;
 }

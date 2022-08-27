@@ -2,11 +2,9 @@ import React from "react";
 
 export default function PopularMenu() {
   return (
-    <div>
-      <div className="img-design">
-        <div className="img-design-line"></div>
-        {/* <img className="img-line" alt="" height={"100"} width={"100"} /> */}
-      </div>
+    <div className="position-relative design-div">
+        <img src="/assets/ShapeNew21.png" alt="" className="img-design" />
+        <img className="img-design-line" src="/assets/Shape2-1.png" alt=""/>
     </div>
   );
 }
